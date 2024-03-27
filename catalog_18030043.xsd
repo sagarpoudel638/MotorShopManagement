@@ -1,0 +1,210 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<!-- defining element so that it is easy to refer later on -->
+  <xs:element name="name_of_shop" type="xs:string"/>
+  <xs:element name="address" type="xs:string"/>
+  <xs:element name="phone_no" type="xs:long"/>
+  <xs:element name="URL" type="xs:anyURI"/>
+  <xs:element name="logo" type="xs:string"/>
+  <xs:element name="length" type="xs:string"/>
+  <xs:element name="width" type="xs:string"/>
+  <xs:element name="height" type="xs:string"/>
+  <xs:element name="brand_name" type="xs:string"/>
+  <xs:element name="item_no" type="xs:short"/>
+  <xs:element name="description" type="xs:string"/>
+  <xs:element name="quantity" type="xs:float"/>
+  <xs:element name="price" type="xs:int"/>
+ <!-- -->
+<!-- complex type element manufacturer--> 
+  <xs:element name="manufacturer">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:byte" name="manufacturer_id" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+<!-- complex type element color--> 
+  <xs:element name="color">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="color_family" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+ <!-- complex type element fuel_type-->  
+  <xs:element name="fuel_type">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:byte" name="fuel_id" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+<!-- complex type element dimension--> 
+  <xs:element name="dimension">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="length"/>
+        <xs:element ref="width"/>
+        <xs:element ref="height"/>
+      </xs:sequence>
+    </xs:complexType>	
+  </xs:element>
+<!-- Defining optional fields-->   
+  <xs:element name="roof" type="xs:string"/>
+  <xs:element name="camera" type="xs:string"/>
+  <xs:element name="negotiation" type="xs:string"/>
+  <xs:element name="entertainment" type="xs:string"/>
+  <xs:element name="parking" type="xs:string"/>
+ <!-- complex type element hatchback--> 
+  <xs:element name="hatchback">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="brand_name"/>
+        <xs:element ref="item_no"/>
+        <xs:element ref="description"/>
+        <xs:element ref="quantity"/>
+        <xs:element ref="price"/>
+        <xs:element ref="manufacturer"/>
+        <xs:element ref="color"/>
+        <xs:element ref="fuel_type"/>
+        <xs:element ref="dimension"/>
+        <xs:element ref="roof" minOccurs="0"/>
+      </xs:sequence>
+      <xs:attribute type="xs:byte" name="id" use="optional"/>
+      <xs:attribute type="xs:byte" name="type_id" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+ <!-- complex type element sedan-->  
+  <xs:element name="sedan">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="brand_name"/>
+        <xs:element ref="item_no"/>
+        <xs:element ref="description"/>
+        <xs:element ref="quantity"/>
+        <xs:element ref="price"/>
+        <xs:element ref="manufacturer"/>
+        <xs:element ref="color"/>
+        <xs:element ref="fuel_type"/>
+        <xs:element ref="dimension"/>
+        <xs:element ref="camera" minOccurs="0"/>
+      </xs:sequence>
+      <xs:attribute type="xs:byte" name="id" use="optional"/>
+      <xs:attribute type="xs:byte" name="type_id" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+<!-- complex type element SUV--> 
+  <xs:element name="SUV">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="brand_name"/>
+        <xs:element ref="item_no"/>
+        <xs:element ref="description"/>
+        <xs:element ref="quantity"/>
+        <xs:element ref="price"/>
+        <xs:element ref="manufacturer"/>
+        <xs:element ref="color"/>
+        <xs:element ref="fuel_type"/>
+        <xs:element ref="dimension"/>
+        <xs:element ref="negotiation" minOccurs="0"/>
+      </xs:sequence>
+      <xs:attribute type="xs:byte" name="id" use="optional"/>
+      <xs:attribute type="xs:byte" name="type_id" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+<!-- complex type element van--> 
+  <xs:element name="van">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="brand_name"/>
+        <xs:element ref="item_no"/>
+        <xs:element ref="description"/>
+        <xs:element ref="quantity"/>
+        <xs:element ref="price"/>
+        <xs:element ref="manufacturer"/>
+        <xs:element ref="color"/>
+        <xs:element ref="fuel_type"/>
+        <xs:element ref="dimension"/>
+      </xs:sequence>
+      <xs:attribute type="xs:byte" name="id" use="optional"/>
+      <xs:attribute type="xs:byte" name="type_id" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <!-- complex type element pickup--> 
+  <xs:element name="pickup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="brand_name"/>
+        <xs:element ref="item_no"/>
+        <xs:element ref="description"/>
+        <xs:element ref="quantity"/>
+        <xs:element ref="price"/>
+        <xs:element ref="manufacturer"/>
+        <xs:element ref="color"/>
+        <xs:element ref="fuel_type"/>
+        <xs:element ref="dimension"/>
+        <xs:element ref="entertainment" minOccurs="0"/>
+      </xs:sequence>
+      <xs:attribute type="xs:byte" name="id" use="optional"/>
+      <xs:attribute type="xs:byte" name="type_id" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+<!-- complex type element roadster-->   
+  <xs:element name="roadster">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="brand_name"/>
+        <xs:element ref="item_no"/>
+        <xs:element ref="description"/>
+        <xs:element ref="quantity"/>
+        <xs:element ref="price"/>
+        <xs:element ref="manufacturer"/>
+        <xs:element ref="color"/>
+        <xs:element ref="fuel_type"/>
+        <xs:element ref="dimension"/>
+        <xs:element ref="parking" minOccurs="0"/>
+      </xs:sequence>
+      <xs:attribute type="xs:byte" name="id"/>
+      <xs:attribute type="xs:byte" name="type_id"/>
+    </xs:complexType>
+  </xs:element>
+<!-- complex type element shop_info-->   
+  <xs:element name="shop_info">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="name_of_shop"/>
+        <xs:element ref="address"/>
+        <xs:element ref="phone_no"/>
+        <xs:element ref="URL"/>
+        <xs:element ref="logo"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+<!-- complex type element shop_items--> 
+  <xs:element name="shop_items">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="hatchback" maxOccurs="unbounded" minOccurs="0"/>
+        <xs:element ref="sedan" maxOccurs="unbounded" minOccurs="0"/>
+        <xs:element ref="SUV" maxOccurs="unbounded" minOccurs="0"/>
+        <xs:element ref="van" maxOccurs="unbounded" minOccurs="0"/>
+        <xs:element ref="pickup" maxOccurs="unbounded" minOccurs="0"/>
+        <xs:element ref="roadster"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+<!-- complex type element shop-->   
+  <xs:element name="shop">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="shop_info"/>
+        <xs:element ref="shop_items"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

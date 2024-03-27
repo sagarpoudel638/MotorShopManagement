@@ -1,0 +1,264 @@
+shop_info{
+	display:block; background:#33ffd6;width:100%; text-align:center;
+	
+	
+}
+name_of_shop{
+	display:block; font-size: 32pt; font-family:Trebuchet MS, Helvetica, sans-serif;color:black;padding-top:12px;padding-bottom:20px
+	
+}
+address {
+	display: block; width: 100%; font-family: Arial, Helvertica, Sans-serif; font-size: 20pt; color:black;
+            
+	
+}
+phone_no {
+	display: block; font-family: Times New Roman, Times, Serif; font-size:20pt; color: black;
+            
+	
+}
+URL {
+	display: block; font-family: Times New Roman, Times, Serif; font-size:20pt; color: black; text-align: center;color:blue; padding-bottom:20px
+            
+	
+}
+logo {
+	background-image: url(logo.png);
+	width:10%;
+	height:22%;
+	top:15px;
+	left: 0px;
+	margin: 7px;
+	margin-left:26px;
+	background-size: 100px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position:absolute;
+	
+}
+shop_items {
+	display:block; 
+	
+}
+hatchback{
+	background: linear-gradient(to bottom, #fdfcfb 0%, #e2d1c3 100%);
+	
+}
+sedan{
+	background: linear-gradient(to bottom right, #ff758c 0%, #ff7eb3 100%);
+	
+}
+SUV{
+	background: linear-gradient(to bottom, #b7f8db 0%, #50a7c2 100%);
+	
+}
+van{
+	background: linear-gradient(to top left, #ee9ca7 0%, #ffdde1 100%);
+	
+}
+pickup{
+	background: linear-gradient(to top left, #96deda 0%, #50c9c3 100%);
+	
+}
+roadster{
+	background: linear-gradient(to top left, #c79081 0%, #dfa579 100%);
+	
+}
+hatchback[id="01"]{
+	float:left ; border-radius:15px 50px 30px;width:40%; margin-left:150px; margin-top:50px
+	
+}
+hatchback[id="02"]{
+	float:left ; border-radius:15px 50px 30px;width:40%;margin-left:20px; margin-top:50px
+	
+}
+hatchback[id="03"]{
+	float:left ; border-radius:15px 50px 30px;width:40%;margin-left:150px; margin-top:50px
+	
+}
+sedan[id="04"]{
+	float:left ; border-radius:15px 50px 30px;width:40%; margin-left:20px; margin-top:50px
+	
+}
+sedan[id="05"]{
+	float:left ; border-radius:15px 50px 30px;width:40%;margin-left:150px; margin-top:50px
+	
+}
+sedan[id="06"]{
+	float:left ; border-radius:15px 50px 30px;width:40%;margin-left:20px; margin-top:50px
+	
+}
+SUV[id="07"]{
+	float:left ; border-radius:15px 50px 30px;width:40%; margin-left:150px; margin-top:50px
+	
+}
+SUV[id="08"]{
+	float:left ; border-radius:15px 50px 30px;width:40%;margin-left:20px; margin-top:50px
+	
+}
+SUV[id="09"]{
+	float:left ; border-radius:15px 50px 30px;width:40%;margin-left:150px; margin-top:50px
+	
+}
+van[id="10"]{
+	float:left ; border-radius:15px 50px 30px;width:40%;margin-left:20px; margin-top:50px
+	
+}
+van[id="11"]{
+	float:left ; border-radius:15px 50px 30px;width:40%;margin-left:150px; margin-top:50px
+	
+}
+van[id="12"]{
+	float:left ; border-radius:15px 50px 30px;width:40%;margin-left:20px; margin-top:50px
+	
+}
+pickup[id="13"]{
+	float:left ; border-radius:15px 50px 30px;width:40%;margin-left:150px; margin-top:50px
+	
+}
+pickup[id="14"]{
+	float:left ; border-radius:15px 50px 30px;width:40%;margin-left:20px; margin-top:50px
+	
+}
+roadster[id="15"]{
+	float:left ; border-radius:15px 50px 30px;width:40%;margin-left:500px; margin-top:50px
+	
+}
+
+brand_name{display:block; font-family: Candara, Times, Serif; 
+            font-size:30pt; background: rgb(73,251,63);
+				background: radial-gradient(circle, rgba(73,251,63,1) 14%, rgba(101,252,70,0.8186624991793592) 97%); 
+				height: 200px ;margin-bottom: 20px;
+            text-align: center; padding-top:20px;border-radius:15px 50px 30px;}
+item_no::before 
+           {content:"Item Number"; display:block;margin-bottom:10px;font-weight:bold;}
+item_no { display:block;text-align:center;border: 3px solid orange;border-style:outset; font-family: Times New Roman, Times, Serif; width: 500px; padding-top: 5px;  margin-top: 50px;margin-left:50px
+}
+
+
+description::before 
+           {content:"Know More"; display:block;margin-bottom:10px;text-align:center;font-weight:bold;font-family: Times New Roman, Times, Serif; }
+			
+description{ display:block;height:210px;border: 3px solid orange;padding-left:5px;text-align:left;border-style:outset;font-family: Verdana, Times, Serif; width: 500px; padding-top: 5px;  margin-top: 50px;margin-left:50px
+}
+
+
+quantity::before 
+           {content:"Vehicles Available"; margin-bottom:10px;display:block;font-weight:bold;font-family: Times New Roman, Times, Serif; text-align:center;}
+			
+quantity   { display:block; border: 3px solid orange;border-style:outset;font-family: Times New Roman, Times, Serif;text-align:center;width: 500px; padding-top: 5px;  margin-top: 50px;margin-left:50px}
+		   
+price::before 
+           {content:"Price"; display:block; font-family: Times New Roman, Times, Serif; 
+            font-size:12pt;  font-weight:bold;
+            margin-bottom:10px;text-align:center}
+			   
+		   
+price 		{display:block; width: 500px; font-family: Times New Roman, Times, Serif;
+           font-size: 20pt; color: black;
+           padding-top: 5px;  margin-top: 50px;  background: linear-gradient(to left, #0000ff 0%, #808080 100%);
+		   border: 3px solid orange;border-style:outset;margin-left:50px ;text-align:center}
+dimension::before 
+           {content:"Dimension"; display:block; font-family: Times New Roman, Times, Serif; 
+            font-size:12pt; padding-right:20px; font-weight:bold;
+            text-align: center;margin-bottom:20px; }
+			
+dimension {display:block; width: 500px; font-family: Times New Roman, Times, Serif;
+           font-size: 15pt; color: black;
+           padding-top: 5px; ; border: 3px solid orange;border-style:outset;margin-top: 50px;margin-left:50px;margin-bottom:20px}
+color::before 
+           {content:"Color Available"; display:block; font-family: Times New Roman, Times, Serif; 
+            font-size:12pt; padding-right:20px; font-weight:bold;
+            text-align: center;margin-bottom:20px}
+			
+		   
+color { display:block;border: 3px solid orange;border-style:outset;font-family: Times New Roman, Times, Serif;text-align:center;width: 500px; padding-top: 5px;  margin-top: 50px;margin-left:50px}
+		   
+fuel_type::before 
+           {content:"Fuel Type"; display:block; font-family: Times New Roman, Times, Serif; 
+            font-size:12pt; padding-right:20px; font-weight:bold;
+		   text-align: center;margin-bottom:20px;}
+			
+fuel_type { display:block;border: 3px solid orange;border-style:outset;font-family: Times New Roman, Times, Serif;text-align:center;width: 500px; padding-top: 5px;  margin-top: 50px;margin-left:50px}
+		   
+entertainment::before 
+           {content:"Extra Feature"; display:block; font-family: Times New Roman, Times, Serif; 
+            font-size:12pt; padding-right:20px; font-weight:bold;
+            text-align: center;margin-bottom:20px}		   
+entertainment { display:block;border: 3px solid orange;margin-bottom:20px;border-style:outset;font-family: Times New Roman, Times, Serif;text-align:center;width: 500px; padding-top: 5px;  margin-top: 50px;margin-left:50px}
+		   
+roof::before 
+           {content:"Extra Feature"; display:block; font-family: Times New Roman, Times, Serif; 
+            font-size:12pt; padding-right:20px; font-weight:bold;
+            text-align: center;margin-bottom:20px}
+roof { display:block;border: 3px solid orange;border-style:outset;margin-bottom:20px;font-family: Times New Roman, Times, Serif;text-align:center;width: 500px; padding-top: 5px;  margin-top: 50px;margin-left:50px}
+		   
+negotiation::before 
+           {content:"Negotiation"; display:block; font-family: Times New Roman, Times, Serif; 
+            font-size:12pt; padding-right:20px; font-weight:bold;
+            text-align: center;margin-bottom:20px}
+negotiation { display:block;border: 3px solid orange;margin-bottom:20px;border-style:outset;font-family: Times New Roman, Times, Serif;text-align:center;width: 500px; padding-top: 5px;  margin-top: 50px;margin-left:50px}
+camera::before 
+           {content:"Extra Feature"; display:block; font-family: Times New Roman, Times, Serif; 
+            font-size:12pt; padding-right:20px; font-weight:bold;
+            text-align: center;margin-bottom:20px}
+camera { display:block;border: 3px solid orange;border-style:outset;margin-bottom:20px;font-family: Times New Roman, Times, Serif;text-align:center;width: 500px; padding-top: 5px;  margin-top: 50px;margin-left:50px}
+parking::before 
+           {content:"Extra Feature"; display:block; font-family: Times New Roman, Times, Serif; 
+            font-size:12pt; padding-right:20px; font-weight:bold;
+            text-align: center;margin-bottom:20px}
+parking { display:block;border: 3px solid orange;border-style:outset;margin-bottom:20px;font-family: Times New Roman, Times, Serif;text-align:center;width: 500px; padding-top: 5px;  margin-top: 50px;margin-left:50px}
+manufacturer::before 
+           {content:"Manufacturer"; display:block; font-family: Times New Roman, Times, Serif; 
+            font-size:12pt; padding-right:20px; font-weight:bold;
+            text-align: center;margin-bottom:20px;}
+manufacturer { display:block;border: 3px solid orange;border-style:outset;font-family: Times New Roman, Times, Serif;text-align:center;width: 500px; padding-top: 5px;  margin-top: 50px;margin-left:50px}
+length::before {content:"length"; display:inline; font-family: Times New Roman, Times, Serif; 
+            font-size:12pt; padding-right:20px; font-weight:bold;
+            text-align: center;margin-bottom:20px}
+length {display:list-item; list-style:none; width: 500px; font-family: Times New Roman, Times, Serif;
+           font-size: 12pt; color: black;
+           padding-top: 5px;text-align:center}
+
+width::before {content:"width"; display:inline; font-family: Times New Roman, Times, Serif; 
+            font-size:12pt; padding-right:20px; font-weight:bold;
+            text-align: center;margin-bottom:20px}
+width {display:list-item; list-style:none; width: 500px; font-family: Times New Roman, Times, Serif;
+           font-size: 12pt; color: black;
+           padding-top: 5px;text-align:center}
+
+height::before {content:"height"; display:inline; font-family: Times New Roman, Times, Serif; 
+            font-size:12pt; padding-right:20px; font-weight:bold;
+            text-align: center;margin-bottom:20px}
+height {display:list-item; list-style:none; width: 500px; font-family: Times New Roman, Times, Serif;
+           font-size: 12pt; color: black;
+           padding-top: 5px;padding-bottom:10px;text-align:center}
+
+color[color_family="red"] {
+	
+	background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+color[color_family="black"] {
+	
+	background-color: #000000;
+	background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+	color:white;
+}
+color[color_family="blue"] {
+	
+	background-color: #2a2a72;
+	background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);	
+}
+color[color_family="silver"] {
+	
+	background-color: #b3cdd1;
+	background-image: linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%);
+
+}
+color[color_family="grey"] {
+	
+	background-color: #e9bcb7;
+	background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+}
+
+

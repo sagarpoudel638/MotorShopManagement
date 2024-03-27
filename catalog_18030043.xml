@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>   
+<?xml-stylesheet type="text/css" href="catalog_18030043.css"?>
+<shop xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ 		xsi:noNamespaceSchemaLocation="catalog_18030043.xsd">
+		
+		
+	<shop_info>
+	
+		<name_of_shop>Dhurbatara Motor Sales</name_of_shop>	
+		<address>Nepalgunj-12,Banke,Nepal</address>
+		<phone_no>9868299552</phone_no>
+		<URL>www.dhurbataramotors.com</URL>
+		<logo></logo> 
+		
+	</shop_info>
+	
+	
+	<shop_items>
+	
+		<hatchback id="01" type_id="001">
+		
+		
+			
+			<brand_name>Maruti Suzuki Swift </brand_name>
+			<item_no>0458</item_no>
+			<description>
+			
+				<![CDATA[  
+					The Swift was the game changer in our thriving car market back then. 
+					It looked quirky and showed us that a hatchback can be practical and fun at the same time. 
+					It also won the coveted Indian Car of the Year Award (ICOTY) in 2012.
+				]]>
+				
+			</description>
+			<quantity>2</quantity>
+			<price>1500000</price>
+			<manufacturer manufacturer_id="1">Maruti Suzuki</manufacturer>
+			<color color_family="red">Solid Fire Red </color>
+			<fuel_type fuel_id="1">Petrol</fuel_type>
+			<dimension>
+			
+				<length>3850mm</length>
+				<width>1695mm</width>
+				<height>1530mm</height>
+				
+			</dimension>
+			
+		</hatchback>	
+		<hatchback id="02" type_id="001">
+			
+			<brand_name>TATA Altroz</brand_name>
+			<item_no >0459</item_no>
+			<description>
+				<![CDATA[
+					The Altroz is Tata’s latest, most modern, and its most futuristic looking car.
+					the Altroz stands out with the quirky black-finished sills running below the windows called the ‘shooting star beltline’, 
+					and the hidden rear door handle. Also prominent are the well-defined front wheel arches and sharp shoulder creases running across the sides. 
+					At the back, the sharply raked and contoured tailgate has integrated wrap-around LED taillamps.			
+				]]> 
+			</description>
+			<quantity>1</quantity>
+			<price>1800000</price>
+			<manufacturer manufacturer_id="2">TATA</manufacturer>
+			<color color_family="red">Downtown Red</color>
+			<fuel_type fuel_id="2">Diesel</fuel_type>
+			<dimension>
+				<length>3990mm</length>
+				<width>1755mm</width>
+				<height>1523mm</height>
+			</dimension>
+			
+		</hatchback>
+		<hatchback id="03" type_id="001" >
+			
+			<brand_name>Hyundai Grand i10</brand_name>
+			<item_no>0461</item_no>
+			<description>
+				<![CDATA[
+					Hyundai Grand i10 is a 5 seater hatchback. It is available in 2 variants, a 1197 cc, BS6 and a single Manual transmission. 
+					Other key specifications of the Grand i10 include a ground clearance of 165mm and boot space of 256 Liters. 
+					The Grand i10 is available in 4 colours. 
+					Over 1269 User reviews basis Mileage, Performance, Price and overall experience of users for Hyundai Grand i10.
+				]]>
+			</description>
+			<quantity>2</quantity>
+			<price>1200000</price>
+			<manufacturer manufacturer_id="3">Hyundai</manufacturer>
+			<color color_family="blue">Marina Blue</color>
+			<fuel_type fuel_id="1">Petrol</fuel_type>
+			<dimension>
+				<length>3765mm</length>
+				<width>1660mm</width>
+				<height>1520mm</height>
+			</dimension>
+			<roof>Roof rack Available</roof>
+			
+			
+		</hatchback>
+		
+		
+		<sedan id="04" type_id="002" >
+		
+		
+			
+			<brand_name>Nissan Leaf</brand_name>
+			<item_no >0462</item_no>
+			<description>
+				<![CDATA[
+					That original Leaf has amazingly loyal and satisfied customers. 
+					They loved the tiny running costs, convenience of home charging, silence, and simple practicality. 
+					And they liked that at the top and bottom it was just a car - five seats, good boot, easy to drive, affordable to buy. 
+					People who have owned electric cars almost never return to combustion.
+				]]>
+			</description> 
+			<quantity> 1</quantity>
+			<price>3000000</price>
+			<manufacturer manufacturer_id="4">Nissan</manufacturer>
+			<color color_family="white">Pearl White</color>
+			<fuel_type fuel_id="3">Electric</fuel_type>
+			<dimension>
+				<length>4490mm</length>
+				<width>2030mm</width>
+				<height>1530mm</height>
+			</dimension>
+			<camera>  360 degree view camera</camera>
+			
+		</sedan>
+		<sedan id="05" type_id="002">
+			<brand_name>Verna</brand_name>
+			<item_no >0463</item_no>
+			<description>
+				<![CDATA[
+					Hyundai Verna is a 5 seater. It is available in 11 variants, 3 engine options that are BS6 compliant and 2 transmission options: 
+					Manual and Automatic. Other key specifications of the Verna include a boot space of 480 Liters. 
+					The Verna is available in 6 colours. 
+					Over 75 User reviews basis Mileage, Performance, Price and overall experience of users for Hyundai Verna.
+				]]>
+			</description>
+			<quantity>2</quantity>
+			<price>2000000</price>
+			<manufacturer manufacturer_id="3">Hyundai</manufacturer>
+			<color color_family="black">Phantom Black</color>
+			<fuel_type fuel_id="2">Diesel</fuel_type>
+			<dimension>
+				<length>4440mm</length>
+				<width>1729mm</width>
+				<height>1475mm</height>
+			</dimension>
+		</sedan>	
+		<sedan  id="06" type_id="002">
+			
+			<brand_name>Skoda Rapid</brand_name>
+			<item_no>0464</item_no>
+			<description>
+				<![CDATA[
+					Skoda Rapid is a 5 seater sedan . It is available in 5 variants, a 999 cc, 
+					BS6 and a single Manual transmission. Other key specifications of the Rapid include a kerb weight of 1111kg, ground clearance of 163mm and boot space of 460 Liters.
+					The Rapid is available in 4 colours. 
+					Over 245 User reviews basis Mileage, Performance, Price and overall experience of users for Skoda Rapid.
+				]]> 
+			</description>
+			<quantity>1</quantity>
+			<price>1800000</price>
+			<manufacturer manufacturer_id="5">Skoda</manufacturer>
+			<color color_family="silver">Brilliant Silver</color>
+			<fuel_type fuel_id="1">Petrol</fuel_type>
+			<dimension>
+				<length>4413mm</length>
+				<width>1699mm</width>
+				<height>1466mm</height>
+			</dimension>
+			
+			
+		</sedan>
+		
+		
+		
+		<SUV id="07" type_id="003">
+		
+		
+			
+			<brand_name>TATA Nexon EV</brand_name>
+			<item_no >0465</item_no>
+			<description>
+				<![CDATA[
+					Tata Nexon EV Range, Electric Motor and Battery: 
+					The Nexon EV uses Tata's Ziptron EV powertrain technology that features a 30.2kWh lithium-ion battery with a claimed range of 312km. 
+					It gets an 8-year standard warranty and an IP67 waterproof battery pack.
+				]]> 
+			</description>
+			<quantity>1</quantity>
+			<price>3000000</price>
+			<manufacturer manufacturer_id="2">TATA</manufacturer>
+			<color color_family="white">Glacier White</color>
+			<fuel_type fuel_id="3">Electric</fuel_type>
+			<dimension>
+				<length>3993mm</length>
+				<width>1811mm</width>
+				<height>1606mm</height>
+			</dimension>
+		</SUV>	
+		<SUV  id="08" type_id="003">	
+			
+			<brand_name>Mahindra Scorpio</brand_name>
+			<item_no >0466</item_no>
+			<description>
+				<![CDATA[
+					Mahindra Scorpio is a 7 seater suv 
+					Other key specifications of the Scorpio include a ground clearance of 180mm and boot space of 460 Liters. 
+					Over 1527 User reviews basis Mileage, Performance, Price and overall experience of users for Mahindra Scorpio.
+				]]> 
+			</description>
+			<quantity>1</quantity>
+			<price>2300000</price>
+			<manufacturer manufacturer_id="6">Mahindra</manufacturer>
+			<color color_family="red">Molten Red</color>
+			<fuel_type fuel_id="2">Diesel</fuel_type>
+			<dimension>
+				<length>4456mm</length>
+				<width>1820mm</width>
+				<height>1995mm</height>
+			</dimension>
+			<negotiation>Available</negotiation>
+		</SUV>
+		<SUV id="09" type_id="003">
+			
+			
+			<brand_name>Kia Seltos</brand_name>
+			<item_no>0467</item_no>
+			<description>
+				<![CDATA[
+					Kia Seltos is a 5 seater suv .  Other key specifications of the Seltos include a boot space of 433 Liters. 
+					Over 2112 User reviews basis Mileage, Performance, Price and overall experience of users for Kia Seltos.
+				]]> 
+			</description>
+			<quantity>1</quantity>
+			<price>2500000</price>
+			<manufacturer manufacturer_id ="7">KIA</manufacturer>
+			<color color_family="black">Aurora Black Pearl</color>
+			<fuel_type fuel_id="1">Petrol</fuel_type> 
+			<dimension>
+				<length>4315mm</length>
+				<width>1800mm</width>
+				<height>1645mm</height>
+			</dimension>
+			
+			
+		</SUV>
+		
+		
+		
+		<van id ="10" type_id="004">
+		
+		
+			
+			<brand_name>eSupro Cargo Van</brand_name>
+			<item_no >0468</item_no>
+			<description>
+				<![CDATA[
+					Mahindra brings you eSupro, a stylish , 
+					spacious van which is a whole new concept in cargo transportation and people movement. 
+					It is an advanced electric van that brings emissions down to zero, absolute zero.
+					The eSupro van with zero emission has many advantages. 
+				]]> 
+			</description>
+			<quantity>1</quantity>
+			<price>800000</price>
+			<manufacturer manufacturer_id="6">Mahindra</manufacturer>
+			<color color_family="blue">Deep Warm Blue</color>
+			<fuel_type fuel_id="3">Electric</fuel_type>
+			<dimension>
+				<length>3798mm</length>
+				<width>1540mm</width>
+				<height>1922mm</height>
+			</dimension>
+		</van>
+		<van  id ="11" type_id="004">
+			
+			<brand_name>TATA Magic</brand_name>
+			<item_no>0469</item_no>
+			<description>
+				<![CDATA[	
+					Tata Magic Diesel is a commercial vehicle by Tata Motors in the MUV segment. 
+					Magic comes with a 4 stroke 702cc engine giving a performance of 16 BHP @ 3200 rpm and 38 Nm @ 2000 rpm.
+					At a price point of around 4.50 lakhs, Tata Magic has competition from Mahindra Maxximo which gives the same performance at a price point of 3.05 lakhs. 
+					TATA Magic has an impressive mileage of 17.9 kmpl.
+				]]> 
+			</description>
+			<quantity>3</quantity>
+			<price>1200000</price>
+			<manufacturer manufacturer_id="2">TATA</manufacturer>
+			<color color_family="silver">silver</color>
+			<fuel_type fuel_id="1">Petrol</fuel_type>
+			<dimension>
+				<length>3790mm</length>
+				<width>1500mm</width>
+				<height>1845mm</height>
+			</dimension>
+			
+		</van>
+		<van id ="12" type_id="004">
+			
+			<brand_name>EECO</brand_name>
+			<item_no >0470</item_no>
+			<description>
+				<![CDATA[
+					Maruti Eeco is a 5 seater minivan. It is available in 4 variants, a 1196 cc, BS6 and a single Manual transmission. 
+					Other key specifications of the Eeco include a kerb weight of 1050kg, ground clearance of 160mm and boot space of 540 Liters. 
+					The Eeco is available in 6 colours. Over 177 User reviews basis Mileage, Performance, Price and overall experience of users for Maruti Eeco.
+				]]>
+			</description>
+			<quantity>1</quantity>
+			<price>1200000</price>
+			<manufacturer manufacturer_id="1">Maruti Suzuki</manufacturer>
+			<color color_family="red">Metallic Passion Red</color>
+			<fuel_type fuel_id="1">Petrol</fuel_type>
+			<dimension>
+				<length>3675mm</length>
+				<width>1475mm</width>
+				<height>1825mm</height>
+			</dimension>
+			
+			
+		</van>
+		
+		
+		
+		<pickup id="13" type_id="005">
+			
+			<brand_name>Isuzu D-MAX</brand_name>
+			<item_no >0471</item_no>
+			<description>
+				<![CDATA[
+					Isuzu D-MAX features and specifications make this truck highly popular in the Indian market.
+					It comes with 4x4 axle configuration. This Truck is powered by a 2499 cc engine which produces 78 BHP of power and carries a 1200 kg of PayLoad. 
+					It’s 3050 mm Wheelbase and Power Steering makes it unique in this segment. This Truck’s 6 Speed Gearbox and Manual transmission makes for a smooth drive on Indian roads.
+					You can check the details for the complete technical specification of Isuzu D-MAX Truck below.
+				]]> 
+			</description>
+			<quantity>1</quantity>
+			<price>1200000</price>
+			<manufacturer manufacturer_id="8">Isuzu Motors and General Motors</manufacturer>
+			<color color_family="silver">Titanium Silver</color>
+			<fuel_type fuel_id="2">Diesel</fuel_type>
+			<dimension>
+				<length>1920mm</length>
+				<width>1720mm</width>
+				<height>0480mm</height>
+			</dimension>
+		</pickup>
+		<pickup  id="14" type_id="005">
+			
+			
+			<brand_name>TATA Xenon </brand_name>
+			<item_no>0472</item_no>
+			<description>
+				<![CDATA[
+					The Tata Xenon Double Cabin is a perfect combination of style, design, comfort, safety features and performance.
+					Tough, compact and sturdy, the Tata Xenon Double-Cabin pickup truck handles a range of chores across varied terrains. 
+					Its impressive list of features gives it a competitive edge over other brands. 
+				]]> 
+			</description>
+			<quantity>1</quantity>
+			<price>2000000</price>
+			<manufacturer manufacturer_id="2">TATA</manufacturer>
+			<color color_family="black">Quartz Black</color>
+			<fuel_type fuel_id="2">Diesel</fuel_type>
+			<dimension>
+				<length>4800mm</length>
+				<width>1860mm</width>
+				<height>1765mm</height>
+			</dimension>
+			<entertainment>Harman Infotainment system with Android Auto and Car play</entertainment>
+			
+			
+		</pickup>
+		
+		
+		
+		<roadster id="15" type_id="006">
+			
+			<brand_name>The BMW i8 Roadster</brand_name>
+			<item_no >0473</item_no>
+			<description>
+				<![CDATA[
+					The i8 is now available in coupe and Roadster configurations, the latter boasting a power-folding top that can be lowered in 15 seconds.
+					In addition, the battery now has a capacity of 11.6 kWh, allowing for an estimated EV range of 55 km for the coupe, 53 km for the Roadster.
+					Finally, the plug-in hybrid powertrain gains 12 horsepower this year for a total of 369. Despite the i8's age, its futuristic styling still turns heads.
+				]]> 
+			</description>
+			<quantity>1</quantity> 
+			<price>60000000</price>
+			<manufacturer manufacturer_id="10">BMW</manufacturer>
+			<color color_family="grey">DONINGTON GREY</color>
+			<fuel_type fuel_id="4">Hybrid</fuel_type>
+			<dimension>
+				<length>4696mm</length>
+				<width>1943mm</width>
+				<height>1288mm</height>
+			</dimension>
+			<parking>Built in parking sensor</parking>
+			
+		</roadster>
+		
+		
+		
+	</shop_items>
+</shop>
